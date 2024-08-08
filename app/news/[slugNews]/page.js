@@ -14,7 +14,7 @@ export default function NewsDetailPage({ params }) {
       <header>
         <img src={`/images/news/${newsItem.image}`} />
         <h1>{newsItem.title}</h1>
-        <time dataTime={newsItem.date}>{newsItem.date}</time>
+        <time datatime={newsItem.date}>{newsItem.date}</time>
       </header>
 
       <p>{newsItem.content}</p>
